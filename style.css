@@ -1,0 +1,33 @@
+
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  background: #f5f5f5;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+label { display: block; margin-top: 15px; }
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+button { margin-top: 10px; }
+.info {
+  background: #eef;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+a { color: #0066cc; text-decoration: none; }
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #888;
+}

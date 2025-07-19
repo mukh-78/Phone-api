@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مراقب أداء الموبايل</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>مراقب أداء المعالج والهاتف</h1>
+    <label>اختر المعالج:</label>
+    <select id="cpuSelect">
+      <option value="">-- اختر معالج --</option>
+      <option value="snapdragon8gen1">Snapdragon 8 Gen 1</option>
+      <option value="dimensity9000">Dimensity 9000</option>
+      <option value="exynos2200">Exynos 2200</option>
+    </select>
+    <div id="cpuInfo" class="info"></div>
+
+    <label>اكتب اسم الهاتف:</label>
+    <input type="text" id="phoneInput" placeholder="مثال: Galaxy S22">
+    <button onclick="checkPhone()">تحقق</button>
+    <div id="phoneInfo" class="info"></div>
+
+    <p><a id="ifixitLink" href="#" target="_blank">🔧 عرض خريطة صيانة من iFixit</a></p>
+
+    <footer><p>© حقوق النشر لـ murtada‑mufk tecno</p></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
